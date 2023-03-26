@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { Badge, Button, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { Skills } from ".";
+import { Skills } from "./index";
 import { homeImageData } from "../../utils/Contant";
 
 const Home = () => {
-  
   return (
     <div className="container-fluid">
       <div className="row p-4">
@@ -13,7 +12,9 @@ const Home = () => {
           <Card style={{ width: "100%" }}>
             <Card.Body>
               <Card.Title className="fs-1 bold">Hii I Am</Card.Title>
-              <Card.Title className="text_heading_1">Md Intezar Alam</Card.Title>
+              <Card.Title className="text_heading_1">
+                Md Intezar Alam
+              </Card.Title>
               <Card.Text>
                 Frontend development using modern technology such as React. I
                 follow the best folder structure so that code will be more
@@ -26,8 +27,6 @@ const Home = () => {
                 Hire Me
               </Badge>
               <Card.Body className="d-flex justify-content-between m-auto p-4 w-75">
-
-
                 {homeImageData?.map((data) => (
                   <Link to={data.img_link}>
                     <img
@@ -78,7 +77,6 @@ const Home = () => {
                   </Card.Text>
                 </Card.Text>
               </Card.Text>
-
               <Card.Title className="text-bold">
                 Node Js, Express js, MongoDB, Bootstrap, Git, GitHub,
                 Material-UI
@@ -88,7 +86,7 @@ const Home = () => {
         </div>
       </div>
       <div className="row pt-lg-5 p-4">
-      <h5 className="text_heading_3">Front-end Developer</h5>
+        <h5 className="text_heading_3">Front-end Developer</h5>
         <Skills />
       </div>
     </div>
