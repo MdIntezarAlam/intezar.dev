@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,7 +28,67 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* home */
+.text_heading_1 {
+  color: #0088ff !important;
+  font-weight: bold !important;
+  font-size: 3rem !important;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, red, blue) !important;
+  -webkit-text-fill-color: transparent !important;
+  -webkit-background-clip: text !important;
+}
+
+.text_technology_heading {
+  color: hsl(0, 99%, 53%) !important;
+  font-weight: bold !important;
+  font-size: 3rem !important;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, rgb(88, 10, 244), rgb(255, 113, 5)) !important;
+  -webkit-text-fill-color: transparent !important;
+  -webkit-background-clip: text !important;
+}
+
+.text_heading_2 {
+  font-size: 3rem;
+  background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text_heading_3 {
+  color: hsl(0, 0%, 0%) !important;
+  font-weight: bold !important;
+  font-size: 3rem !important;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, rgb(88, 10, 244), rgb(255, 113, 5)) !important;
+  -webkit-text-fill-color: transparent !important;
+  -webkit-background-clip: text !important;
+}
+@media only screen and (max-width: 600px) {
+  .text_heading_1 {
+    font-size: 1.8rem !important;
+  }
+  .text_technology_heading {
+    font-size: 1.8rem !important;
+  }
+  .text_heading_2{
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+  .text_heading_3{
+    font-size: 1.5rem !important;
   }
 }
