@@ -9,7 +9,7 @@ const Skills = () => {
   return (
     <div className="container-fluid">
       <div className="row">
-      <h2 className="text_heading_2 pt-2 pb-md-4">My Awesome Skills</h2>
+      <h5 className="text_heading_3">Front-end Developer</h5>
         {skills && skills.length > 0 ? skills.map((data) => (
           <div className="col-md-6 col-lg-3 col-sm-6 col-12 mb-4">
             <div className="card">
