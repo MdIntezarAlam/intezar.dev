@@ -12,7 +12,7 @@ const RightSideIntro = () => {
         <img src={a1} className="img_box img_2" alt="card_mg" />
         <img src={a13} className="img_box img_3" alt="card_mg" />
       </div>
-      <div className="d-flex flex-row justify-content-center  align-items-center">
+      <div className="btn_container">
         <a href={resume} className="btn1">
           <button className="btn">Download Resume</button>
         </a>

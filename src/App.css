@@ -135,12 +135,13 @@ a{
 
 .img_1 {
   position: absolute;
-  top: 110px;
+  bottom: -38px;
 }
 
 .img_2 {
   top: 50px;
   margin-top: -110px;
+  margin-right: 25px;
 }
 
 .img_3 {
@@ -148,55 +149,66 @@ a{
   margin-left: -30px;
 }
 
-@media only screen and (min-width:1300px) {
+@media only screen and (min-width:1390px) {
   .img_box {
     width: 200px;
     height: 200px;
   }
+  .img_1{
+    /* bottom:-91px ; */
+  }
 }
+@media only screen and (min-width:507px) {
+  .img_box {
+    width: 195px;
+    height: 195px;
+  }
 
+}
 @media only screen and (max-width:950px) {
   .img_box {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
+  }
+  .img_1{
+    bottom: -10px;
   }
 }
 
-@media only screen and (max-width:428px) {
-  .img_box {
-    width: 150px;
-    height: 150px;
-    padding: 5px;
-  }
-}
-@media only screen and (max-width:390px) {
-  .img_box {
-    width: 150px;
-    height: 150px;
-  }
-}
+
 @media only screen and (max-width:360px) {
   .img_box {
     width: 140px;
     height: 140px;
   }
-}
-@media only screen and (max-width:330px) {
-  .img_box {
-    width:130px;
-    height:130px;
+  .img_1{
+    bottom: 11px;
   }
 }
+
 @media only screen and (max-width:320px) {
   .img_box {
-    width: 130px;
-    height: 130px;
+    width: 140px;
+    height: 140px;
+  }
+  /* .img_3{
+    margin-right: 4px;
+  } */
+  .img_1{
+    bottom: 5px;
   }
 }
 
 
 
+.btn_container{
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+  margin-top: 70px !important;
 
+}
 .btn{
   padding: 8px !important;
   border-radius: 15px !important;
@@ -205,6 +217,7 @@ a{
   font-weight: 500 !important;
   margin-top: 30px;
   font-size: 12px !important;
+  background-color: violet !important;
   background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
 }
 .btn1{
@@ -215,6 +228,9 @@ margin-left: 10px;
 
 }
 @media only screen and (max-width:412px) {
+  .btn_container{
+    margin-top: 40px;
+  }
   .btn{
     font-size: 12px !important;
   }
