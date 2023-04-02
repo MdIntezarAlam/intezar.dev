@@ -1,6 +1,7 @@
-a{
+a {
   text-decoration: none;
 }
+
 .img_1,
 .img_2,
 .img_3 {
@@ -56,6 +57,7 @@ a{
   -webkit-text-fill-color: transparent !important;
   -webkit-background-clip: text !important;
 }
+
 /* home */
 
 .text_heading_1 {
@@ -131,11 +133,11 @@ a{
   object-fit: cover;
   padding: 10px;
   background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
- }
+}
 
 .img_1 {
   position: absolute;
-  bottom: -38px;
+  bottom: -45px;
 }
 
 .img_2 {
@@ -149,15 +151,44 @@ a{
   margin-left: -30px;
 }
 
-@media only screen and (min-width:1390px) {
+@media only screen and (min-width: 720px) and (max-width: 1300px) {
+  .img_box {
+    width: 190px;
+    height: 190px;
+  }
+
+  .img_1 {
+    bottom: -63px;
+  }
+}
+ @media only screen and (max-width:710px) {
+  .img_box {
+    width: 180px;
+    height: 180px;
+  }
+
+  .img_1 {
+    bottom: -48px;
+  }
+}
+ @media only screen and (max-width:450px) {
+  .img_box {
+    width: 140px;
+    height: 140px;
+  }
+
+  .img_1 {
+    top: 135px;
+  }
+}
+
+/* @media only screen and (min-width:1390px) {
   .img_box {
     width: 200px;
     height: 200px;
   }
-  .img_1{
-    /* bottom:-91px ; */
-  }
-}
+} */
+/* 
 @media only screen and (min-width:507px) {
   .img_box {
     width: 195px;
@@ -165,51 +196,52 @@ a{
   }
 
 }
+
 @media only screen and (max-width:950px) {
   .img_box {
     width: 150px;
     height: 150px;
   }
-  .img_1{
+
+  .img_1 {
     bottom: -10px;
   }
-}
+} */
 
 
-@media only screen and (max-width:360px) {
+/* @media only screen and (max-width:360px) {
   .img_box {
     width: 140px;
     height: 140px;
   }
-  .img_1{
+
+  .img_1 {
     bottom: 11px;
   }
-}
-
+} */
+/* 
 @media only screen and (max-width:320px) {
   .img_box {
     width: 140px;
     height: 140px;
   }
-  /* .img_3{
-    margin-right: 4px;
-  } */
-  .img_1{
+
+  .img_1 {
     bottom: 5px;
   }
-}
+} */
 
 
 
-.btn_container{
+.btn_container {
   display: flex !important;
   flex-direction: row !important;
   align-items: center !important;
   justify-content: space-around !important;
   margin-top: 70px !important;
-
 }
-.btn{
+
+.btn {
   padding: 8px !important;
   border-radius: 15px !important;
   background-color: tomato !important;
@@ -220,14 +252,16 @@ a{
   background-color: violet !important;
   background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
 }
-.btn1{
-/* width: 50%; */
-}
-.btn2{
-margin-left: 10px;
 
+.btn1 {
+  /* width: 50%; */
 }
-@media only screen and (max-width:412px) {
+
+.btn2 {
+  /* margin-left: 10px; */
+}
+
+/* @media only screen and (max-width:412px) {
   .btn_container{
     margin-top: 40px;
   }
@@ -273,4 +307,4 @@ margin-left: 10px;
   .btn2 {
     width: 40%;
   }
-}
+} */
