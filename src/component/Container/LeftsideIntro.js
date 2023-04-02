@@ -4,7 +4,7 @@ import { Badge, Card } from "react-bootstrap";
 
 const LeftsideIntro = () => {
   return (
-    <div style={{ width: "100%" }}>
+    <div>
       <Card.Body>
         <Card.Title className="fs-1 bold">Hii I Am</Card.Title>
         <Card.Title className="text_heading_1">Md Intezar Alam</Card.Title>
@@ -28,7 +28,7 @@ const LeftsideIntro = () => {
                 class="rounded-pill"
                 width={50}
                 height={50}
-                className="rounded-2 me-4"
+                className="rounded-2 "
               />
             </Link>
           ))}

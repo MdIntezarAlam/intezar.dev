@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 a {
   text-decoration: none;
 }
@@ -5,7 +10,6 @@ a {
 .img_1,
 .img_2,
 .img_3 {
-  height: 40vmin;
   pointer-events: none;
 }
 
@@ -16,21 +20,6 @@ a {
   .img_3 {
     animation: App-logo-spin infinite 15s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -44,10 +33,6 @@ a {
 }
 
 
-* {
-  margin: 0px;
-  padding: 0px;
-}
 
 .portfolio_style {
   color: #0088ff !important;
@@ -116,14 +101,28 @@ a {
   }
 }
 
+
+
+
+
+
+
+
+
 /* Right image component */
 .right_img_container {
-  justify-content: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top_img {
   display: flex;
   align-items: center;
-  position: relative;
-  min-height: 45vh;
-  width: 100%;
+  justify-content: center;
+
 }
 
 .img_box {
@@ -135,104 +134,50 @@ a {
   background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
 }
 
-.img_1 {
-  position: absolute;
-  bottom: -45px;
+.third_img {
+  margin-top: -30px;
 }
 
-.img_2 {
-  top: 50px;
-  margin-top: -110px;
-  margin-right: 25px;
-}
-
-.img_3 {
-  margin-top: -110px;
-  margin-left: -30px;
-}
-
-@media only screen and (min-width: 720px) and (max-width: 1300px) {
-  .img_box {
-    width: 190px;
-    height: 190px;
-  }
-
-  .img_1 {
-    bottom: -63px;
-  }
-}
- @media only screen and (max-width:710px) {
+@media only screen and (min-width: 720px) and (max-width: 1280px) {
   .img_box {
     width: 180px;
     height: 180px;
   }
 
-  .img_1 {
-    bottom: -48px;
-  }
-}
- @media only screen and (max-width:450px) {
-  .img_box {
-    width: 140px;
-    height: 140px;
-  }
-
-  .img_1 {
-    top: 135px;
+  .third_img {
+    margin-top: -28px;
   }
 }
 
-/* @media only screen and (min-width:1390px) {
-  .img_box {
-    width: 200px;
-    height: 200px;
-  }
-} */
-/* 
-@media only screen and (min-width:507px) {
-  .img_box {
-    width: 195px;
-    height: 195px;
-  }
-
-}
-
-@media only screen and (max-width:950px) {
+@media only screen and (min-width: 420px) and (max-width: 719px) {
   .img_box {
     width: 150px;
     height: 150px;
   }
-
-  .img_1 {
-    bottom: -10px;
+  .third_img {
+    margin-top: -23px;
   }
-} */
-
-
-/* @media only screen and (max-width:360px) {
+}
+@media only screen and (min-width: 320px) and (max-width: 419px) {
   .img_box {
-    width: 140px;
-    height: 140px;
+    width: 160px;
+    height: 160px;
   }
+  .third_img {
+    margin-top: -23px;
+  }
+}
+@media only screen and (min-width: 220px) and (max-width: 320px) {
+  .img_box {
+    width: 100px;
+    height: 100px;
+  }
+  .third_img {
+    margin-top: -17px;
+  }
+}
 
-  .img_1 {
-    bottom: 11px;
-  }
-} */
 /* 
-@media only screen and (max-width:320px) {
-  .img_box {
-    width: 140px;
-    height: 140px;
-  }
-
-  .img_1 {
-    bottom: 5px;
-  }
-} */
-
-
-
 .btn_container {
   display: flex !important;
   flex-direction: row !important;
@@ -251,60 +196,4 @@ a {
   font-size: 12px !important;
   background-color: violet !important;
   background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
-}
-
-.btn1 {
-  /* width: 50%; */
-}
-
-.btn2 {
-  /* margin-left: 10px; */
-}
-
-/* @media only screen and (max-width:412px) {
-  .btn_container{
-    margin-top: 40px;
-  }
-  .btn{
-    font-size: 12px !important;
-  }
-  .btn1 {
-    width: 60%;
-  }
-  .btn2 {
-    width: 30%;
-  }
-}
-@media only screen and (max-width:352px) {
-  .btn{
-    font-size: 12px !important;
-  }
-  .btn1 {
-    width: 60%;
-  }
-  .btn2 {
-    width: 40%;
-  }
-}
-@media only screen and (max-width:347px) {
-  .btn{
-    font-size: 12px !important;
-  }
-  .btn1 {
-    width: 80%;
-  }
-  .btn2 {
-    width: 40%;
-  }
-}
-@media only screen and (max-width:320px) {
-  .btn{
-    font-size: 11px !important;
-  }
-  .btn1 {
-    width: 90%;
-  }
-  .btn2 {
-    width: 40%;
-  }
 } */

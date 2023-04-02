@@ -12,7 +12,7 @@ const Home = () => {
         <Skills />
         <h5 className="text_heading_3  py-5">My Best Projects</h5>
         <Project />
-        <Technology />
+        {/* <Technology /> */}
       </div>
     </div>
   );
