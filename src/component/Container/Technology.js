@@ -2,8 +2,7 @@ import { Card } from "react-bootstrap";
 
 const Technology = () => {
   return (
-    <div className="col-md8 col-sm-12 col-lg-8">
-    <div>
+    <div className="col-sm-12 col-md-8 col-lg-7 ">
       <Card.Body>
         <Card.Title className="text_technology_heading">
           Technology
@@ -42,7 +41,6 @@ const Technology = () => {
           Material-UI
         </Card.Title>
       </Card.Body>
-    </div>
   </div>
   )
 }

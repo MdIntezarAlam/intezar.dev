@@ -5,7 +5,7 @@ import Technology from "./Technology";
 const Intro = () => {
   return (
     <div className="container-fluid pt-4">
-      <div className="row ">
+      <div className="row">
         <div className="col-md-6">
           <LeftsideIntro />
         </div>
@@ -13,9 +13,6 @@ const Intro = () => {
           <RightSideIntro />
         </div>
       </div>
-      {/* <div className="row pt-5">
-        <Technology />
-      </div> */}
     </div>
   );
 };

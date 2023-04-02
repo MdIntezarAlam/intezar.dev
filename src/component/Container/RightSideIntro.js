@@ -9,21 +9,20 @@ const RightSideIntro = () => {
     <>
       <div class="right_img_container">
         <div className="top_img">
-          <img src={a} className="img_box img_1" alt="card_mg" />
+          <img src={a1} className="img_box img_1" alt="card_mg" />
           <img src={a13} className="img_box img_2" alt="card_mg" />
         </div>
         <div className="third_img">
-          <img src={a1} className="img_box img_3" alt="card_mg" />
+          <img src={a} className="img_box img_3" alt="card_mg" />
         </div>
-
-        {/* <div className="btn_container">
-        <a href={resume} className="btn1">
-          <button className="btn">Download Resume</button>
-        </a>
-        <a href={resume} className="btn2">
-        <button className="btn ">Hire Me</button>
-        </a>
-      </div> */}
+        <div className="btn_container">
+          <a href={resume}>
+            <button className="btn">Download Resume</button>
+          </a>
+          <a href={resume}>
+            <button className="btn ">Hire Me</button>
+          </a>
+        </div>
       </div>
     </>
   );

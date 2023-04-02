@@ -4,7 +4,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Header = () => {
   return (
-    <Navbar bg="black" expand="lg" variant="dark">
+    <Navbar bg="black" expand="lg" variant="dark" className='fixed-top p-2'>
       <div className='container-fluid'>
         <Navbar.Brand href="/"  className='portfolio_style'>Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
