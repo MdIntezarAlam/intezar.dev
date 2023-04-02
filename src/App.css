@@ -135,25 +135,18 @@ a{
 
 .img_1 {
   position: absolute;
-  top: 110px;
+  top: 120px;
 }
 
 .img_2 {
-  top: 50px;
   margin-top: -110px;
 }
 
 .img_3 {
   margin-top: -110px;
-  margin-left: -30px;
+  margin-left: -10px;
 }
 
-@media only screen and (min-width:1300px) {
-  .img_box {
-    width: 200px;
-    height: 200px;
-  }
-}
 
 @media only screen and (max-width:950px) {
   .img_box {
