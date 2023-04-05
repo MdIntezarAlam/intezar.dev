@@ -211,11 +211,10 @@ a {
   align-items: center !important;
   justify-content: space-evenly !important;
   margin-top: 40px !important;
-  /* background-color: #0088ff; */
 }
 
-.btn {
-  width: 10rem;
+.inner_btn {
+  width: 8rem;
   padding: 8px !important;
   border-radius: 15px !important;
   background-color: tomato !important;
@@ -227,8 +226,8 @@ a {
 }
 
 @media only screen and (min-width: 220px) and (max-width: 320px) {
-  .btn {
-    width: 8rem;
+  .inner_btn {
+    width: 5rem;
     margin-left: 2px;
   }
 

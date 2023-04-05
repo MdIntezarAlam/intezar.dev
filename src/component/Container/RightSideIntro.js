@@ -17,10 +17,10 @@ const RightSideIntro = () => {
         </div>
         <div className="btn_container">
           <a href={resume}>
-            <button className="btn">Download Resume</button>
+            <button className="inner_btn">Download Resume</button>
           </a>
           <a href={resume}>
-            <button className="btn ">Hire Me</button>
+            <button className="inner_btn ">Hire Me</button>
           </a>
         </div>
       </div>

@@ -16,7 +16,7 @@ const About = () => {
                 follow the best folder structure so that code will be more
                 re-usable, scalable and flexibile. I mainly focus on code
                 quality and performance. Redux or redux toolkit, localstorage
-                and cookies are used for the state management.
+                and cookies 
               </p>
             </div>
           </div>
