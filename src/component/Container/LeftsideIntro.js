@@ -1,7 +1,5 @@
-import { Link } from "react-router-dom";
 import { homeImageData } from "../../utils/Contant";
 import { Badge, Card } from "react-bootstrap";
-
 const text =
   "Frontend development using modern technology such as React. I follow the best folder structure so that code will be more re-usable,scalable and flexibile. I mainly focus on code quality andperformance. Redux or redux toolkit, localstorage and cookies are usedfor the state management. Html,Css, JavaScript, React Js, Git, GitHub,Node Js, Express Js & MongoDB";
 
@@ -16,7 +14,7 @@ const LeftsideIntro = () => {
         </Badge>
         <Card.Body className="left_social_media_container">
           {homeImageData?.map((data) => (
-            <Link to={data.img_link}>
+            <a href={data.img_link}>
               <img
                 src={data.h_img1}
                 alt="img_icon"
@@ -25,7 +23,7 @@ const LeftsideIntro = () => {
                 height={40}
                 className="rounded-2 "
               />
-            </Link>
+            </a>
           ))}
         </Card.Body>
       </Card.Body>

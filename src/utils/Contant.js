@@ -15,49 +15,49 @@ export const SkiilsData = [
     skillsImg: i1,
     skiilsTitle: "HTML/CSS",
     skillsText:
-      "HTML and Cascading Style Sheets are two of the core technologies for building Web pages. HTML provides the structure of the page, CSS for layout of web pages .",
+      "HTML and Cascading Style Sheets are two of the core technologies for building Web pages.",
   },
   {
     skillsImg: i2,
     skiilsTitle: "JavaScript",
     skillsText:
-      "JavaScript is a scripting language that enables us to create dynamically updating content, control multimedia, animate images, and pretty much everything else.",
+      "JavaScript which allow us to create dynamically updating content, control multimedia, animate images etc..",
   },
   {
     skillsImg: i3,
     skiilsTitle: "React Js",
     skillsText:
-      "React is a JavaScript library for building user interfaces. React is used to build single-page applications. React allows us to create reusable UI components.",
+      "React is a JavaScript library for building user interfaces. React is used to build single-page applications.",
   },
   {
     skillsImg: i4,
     skiilsTitle: "React Native Expo",
     skillsText:
-      "Expo is a framework to build React Native apps. It is a set with tools and services built for React Native. It will help us begin with building React Native apps with ease",
+      "Expo is a framework to build React Native apps. It is a set with tools and services built for React Native. ",
   },
   {
     skillsImg: i5,
     skiilsTitle: "React Redux",
     skillsText:
-      " React component can get the latest state from the store as well as change the state at any time. Redux provides a simple process to get and set the current state of the application ",
+      "Redux provides a simple process to get and set the current state of the application.",
   },
   {
     skillsImg: i6,
     skiilsTitle: "Material-UI/Bootstrap",
     skillsText:
-      "Bootstrap is a open source front-end development framework for the creation of websites and web apps. Designed to enable responsive development of mobile-first websites.",
+      "Designed to enable responsive development of mobile-first websites.",
   },
   {
     skillsImg: i7,
     skiilsTitle: "Node Js/Express JS/MongoDb",
     skillsText:
-      "Express is a node js web application framework that provides features for building web and mobile applications. It is used to build a single page, multipage, and hybrid web application",
+      "Express is a framework that provides features for building web and mobile app.",
   },
   {
     skillsImg: i8,
     skiilsTitle: "Git, GitHub",
     skillsText:
-      "Git is a widely used version control system that lets you manage and keep track of your code. GitHub is a cloud-based hosting service that lets you manage your Git repositories.",
+      "Git is a widely used version control system that  manage and keep track of our code.",
   },
 ];
 

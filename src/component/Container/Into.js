@@ -1,6 +1,5 @@
 import LeftsideIntro from "./LeftsideIntro";
 import RightSideIntro from "./RightSideIntro";
-import Technology from "./Technology";
 
 const Intro = () => {
   return (

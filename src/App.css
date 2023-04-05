@@ -22,15 +22,16 @@ a {
 
 .img_1,
 .img_2,
-.img_3 {
+.img_3,
+.about_card_logo {
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-
   .img_1,
   .img_2,
-  .img_3 {
+  .img_3,
+  .about_card_logo {
     animation: App-logo-spin infinite 15s linear;
   }
 }
@@ -79,10 +80,14 @@ a {
 }
 
 .text_heading_2 {
-  font-size: 3rem;
-  background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  font-size: 2.5rem;
+  background: linear-gradient(to right, #FF0000 0%, #FFFF00 25%, #05C1FF 50%, #FFFF00 75%, #FF0000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center !important;
+
+
+
 }
 
 .text_heading_3 {
@@ -233,7 +238,7 @@ a {
 
 .carasol_img {
   width: 100% !important;
-  height: 90vh !important;
+  height: 60vh !important;
 }
 
 @media only screen and (min-width: 720px) and (max-width: 1280px) {
@@ -279,18 +284,23 @@ a {
 
 
 
-  height: 500px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire contai
+  height: 500px;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire contai
   /* background-color: #A54D84; */
 }
 
 @media only screen and (min-width: 420px) and (max-width: 719px) {
   .footer {
-    height: 40vh ;
+    height: 40vh;
   }
 }
+
 @media only screen and (min-width: 320px) and (max-width: 419px) {
   .footer {
     height: 25vh;
@@ -301,4 +311,16 @@ a {
   .footer {
     height: 20vh;
   }
+}
+
+/* About */
+.about_card_logo {
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50% !important;
+  cursor: pointer !important;
+}
+.hover_effect:hover{
+  padding: 2px;
+  background-color: #fff;
 }
