@@ -10,6 +10,13 @@ import h1 from "../image/h1.jpg";
 import h2 from "../image/h2.jpg";
 import h3 from "../image/h3.jpg";
 
+import pp2 from "../image/pp2.jpg";
+import p3 from "../image/p3.jpg";
+import c3 from "../image/c3.png";
+import c2 from "../image/c2.png";
+import c1 from "../image/c1.png";
+import c4 from "../image/c4.png";
+
 export const SkiilsData = [
   {
     skillsImg: i1,
@@ -69,3 +76,80 @@ export const homeImageData = [
   },
   { h_img1: h3, img_link: "https://www.instagram.com/mdintezar123/" },
 ];
+
+//project data
+export const projectData = [
+  {
+    id: 1,
+    img: c3,
+    title: "Movie-web-app",
+    description:
+      "I have create a movie-web-app for a client using HTML, CSS , Bootstrap and React Js.",
+    github: "https://github.com/MdIntezarAlam/movie-app-with-local-storage",
+    live: "https://react-movies-web-app.netlify.app/",
+  },
+  {
+    id: 2,
+    img: c1,
+    title: "Resume-maker-web-app",
+    description:
+      "responsive resume maker app where i used Html, Css , Bootstrap,React Js & Firebase",
+    github: "https://github.com/MdIntezarAlam/cits",
+    live: "https://citsresumemaker.netlify.app/home",
+  },
+  {
+    id:3,
+    img: c2,
+    title: "Amazon-Clone",
+    description:
+      "Amazon-clone where i used Html, Css , Bootstrap,React, Node/Express & MongoDB",
+    github: "https://github.com/MdIntezarAlam/amazon-clone-react-js",
+    live: "https://int-amazon-clone.netlify.app/",
+  },
+  {
+    id:4,
+    img: pp2,
+    title: "E-commerce-shopping-app",
+    description:
+      "responsive Amazon-clone app where i used Html, Css , Bootstrap,React Js & UseContext",
+    github: "https://intshoping.netlify.app/",
+    live: "https://intshoping.netlify.app/",
+  },
+  {
+    id:5,
+    img: c4,
+    title: "Linkedin-clone",
+    description:
+      " responsive Linkedin clone app where i used Html, Css ,React Js, react-redux & Firebase",
+    github: "https://github.com/MdIntezarAlam/linkedin-clone",
+    live: "https://github.com/MdIntezarAlam/linkedin-clone",
+  },
+  {
+    id:6,
+    img: p3,
+    title: "Wheather-app",
+    description:
+      "responsive Wheather-app where i used Html, Css ,React Js, & API",
+    github: "https://github.com/MdIntezarAlam/linkedin-clone",
+    live: "https://github.com/MdIntezarAlam/linkedin-clone",
+  },
+  {
+    id:5,
+    img: c4,
+    title: "Linkedin-clone",
+    description:
+      " responsive Linkedin clone app where i used Html, Css ,React Js, react-redux & Firebase",
+    github: "https://github.com/MdIntezarAlam/linkedin-clone",
+    live: "https://github.com/MdIntezarAlam/linkedin-clone",
+  },
+  {
+    id:3,
+    img: c2,
+    title: "Amazon-Clone",
+    description:
+      "Amazon-clone where i used Html, Css , Bootstrap,React, Node/Express & MongoDB",
+    github: "https://github.com/MdIntezarAlam/amazon-clone-react-js",
+    live: "https://int-amazon-clone.netlify.app/",
+  },
+];
+
