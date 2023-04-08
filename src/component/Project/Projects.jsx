@@ -15,7 +15,7 @@ const Projects = () => {
                 src={data.img}
                 alt=""
                 width={100}
-                height={122}
+                height={185}
               />
               <div class="card-body">
                 <h4 class="card-title text-white">{data.title}</h4>
