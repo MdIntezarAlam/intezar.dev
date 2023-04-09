@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import { Card } from "react-bootstrap";
-import p3 from "../../image/p3.jpg";
 import { projectData } from "../../utils/Contant";
+import VideoProject from "./VideoProject";
+
 
 const Projects = () => {
   return (
     <div className="container-fluid" id="skills">
       <div className="row">
+      <VideoProject />
         {projectData.map((data) => (
           <div className="col-sm-6 col-md-6 col-lg-3 mt-5">
             <div class="card text-left bg-dark">
@@ -32,6 +32,9 @@ const Projects = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="row">
+        <VideoProject />
       </div>
     </div>
   );
