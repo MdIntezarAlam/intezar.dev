@@ -22,15 +22,14 @@ a {
 
 .img_1,
 .img_2,
-.img_3,
 .about_card_logo {
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
+
   .img_1,
   .img_2,
-  .img_3,
   .about_card_logo {
     animation: App-logo-spin infinite 15s linear;
   }
@@ -43,6 +42,26 @@ a {
 
   to {
     transform: rotate(360deg);
+  }
+}
+
+.img_3 {
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .img_3 {
+    animation: App-spin infinite 15s linear;
+  }
+}
+
+@keyframes App-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-360deg);
   }
 }
 
@@ -330,7 +349,8 @@ a {
   border-radius: 50% !important;
   cursor: pointer !important;
 }
-.hover_effect:hover{
+
+.hover_effect:hover {
   padding: 2px;
   background-color: #fff;
 }
