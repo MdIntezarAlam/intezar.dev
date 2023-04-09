@@ -6,6 +6,7 @@ import i5 from "../image/i5.jpg";
 import i6 from "../image/i6.jpg";
 import i7 from "../image/i7.jpg";
 import i8 from "../image/i8.jpg";
+import i9 from "../image/i9.png";
 import h1 from "../image/h1.jpg";
 import h2 from "../image/h2.jpg";
 import h3 from "../image/h3.jpg";
@@ -296,7 +297,7 @@ export const projectData = [
   },
   {
     id: 3,
-    img: pp4,
+    img: i9,
     title: "Blog-app",
     description:
       "Blog-app skills used HTML, CSS Material-UI,React Js, Express Js Mongodb",
