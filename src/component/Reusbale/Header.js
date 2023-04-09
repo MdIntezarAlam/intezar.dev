@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <nav className="navbar px-4 navbar-expand-lg py-3 bg-dark" data-bs-theme="dark" id='home'>
+    <nav className="navbar px-1 navbar-expand-lg py-3 bg-dark" data-bs-theme="dark" id='home'>
       <div className="container-fluid">
         <a className="navbar-brand portfolio_style" href="#home">Portfolio</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

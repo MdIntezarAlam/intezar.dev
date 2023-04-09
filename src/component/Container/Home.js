@@ -5,7 +5,7 @@ import Technology from "./Technology";
 import Projects from "../Project/Projects";
 const Home = () => {
   return (
-    <div className="container-fluid pt-5 mt-1 p-4" id="home">
+    <div className="container-fluid pt-1 mt-1 p-4" id="home">
       <Intro />
       <div className="row pt-lg-5 px-2">
         <h2 className="text_heading_2   pb-md-2">My Awesome Skills</h2>
@@ -15,9 +15,8 @@ const Home = () => {
         <Projects />
         {/* <Technology /> i will include later*/}
         <div className="mt-5">
-
-        <About />
-        <Contact />
+          <About />
+          <Contact />
         </div>
       </div>
     </div>

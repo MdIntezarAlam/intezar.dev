@@ -3,18 +3,26 @@
   padding: 0px;
   /* background-color: #000; */
 }
+.app{
+  background-image: url("./image/b2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-/* p,
 h1,
 h2,
 h3,
-h4,
 h5,
 h6,
-span,
-div {
+span
+ {
   color: #fff;
-} */
+}
+.text_style{
+  color: #000 !important;
+  font-size: 19px;
+  font-weight: 500 !important;
+}
 
 a {
   text-decoration: none;
@@ -69,7 +77,6 @@ a {
 
 .portfolio_style {
   color: #0088ff !important;
-  font-size: 1.5rem !important;
   font-weight: bold !important;
   font-family: Arial, Helvetica, sans-serif;
   background: linear-gradient(to right, red, blue) !important;
@@ -90,13 +97,19 @@ a {
 /* home */
 
 .text_heading_1 {
-  color: #0088ff !important;
+  color: #ffffff !important;
   font-weight: bold !important;
   font-size: 3rem !important;
   font-family: Arial, Helvetica, sans-serif;
   background: linear-gradient(to right, red, blue) !important;
   -webkit-text-fill-color: transparent !important;
   -webkit-background-clip: text !important;
+}
+.text_heading__1 {
+  color: #ffffff !important;
+  font-weight: bold !important;
+  font-size: 3rem !important;
+  padding-bottom: 20px !important;
 }
 
 .text_technology_heading {
@@ -111,13 +124,9 @@ a {
 
 .text_heading_2 {
   font-size: 2.5rem;
-  background: linear-gradient(to right, #FF0000 0%, #FFFF00 25%, #05C1FF 50%, #FFFF00 75%, #FF0000 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   text-align: center !important;
-
-
-
+  color: rgb(255, 255, 255) !important;
+  padding: 20px;
 }
 
 .text_heading_3 {
