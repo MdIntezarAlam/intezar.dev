@@ -21,7 +21,7 @@ span
 .text_style{
   color: #000 !important;
   font-size: 19px;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
 }
 
 a {
@@ -35,7 +35,6 @@ a {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-
   .img_1,
   .img_2,
   .about_card_logo {
@@ -76,23 +75,11 @@ a {
 
 
 .portfolio_style {
-  color: #0088ff !important;
   font-weight: bold !important;
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(to right, red, blue) !important;
-  -webkit-text-fill-color: transparent !important;
-  -webkit-background-clip: text !important;
-
-
-  background: #FFB76B !important;
-  background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%);
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-
-
-
+  color: #A6CE39 !important;
+  padding-left: 20px;
 }
-
 
 /* home */
 
@@ -127,6 +114,7 @@ a {
   text-align: center !important;
   color: rgb(255, 255, 255) !important;
   padding: 20px;
+  color: #1a2201 !important;
 }
 
 .text_heading_3 {
