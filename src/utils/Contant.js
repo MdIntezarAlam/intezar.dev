@@ -301,7 +301,7 @@ export const projectData = [
     img: i9,
     title: "Blog-app",
     description:
-      "Blog-app skills used HTML, CSS Material-UI,React Js, Express Js Mongodb",
+      "Blog-app skills used HTML, Bootstrap Material-UI,React Js, Express Js Mongodb",
     github: "https://github.com/MdIntezarAlam/blog-mern",
     live: "https://github.com/MdIntezarAlam/blog-mern",
   },
