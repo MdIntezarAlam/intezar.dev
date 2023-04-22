@@ -39,6 +39,7 @@ import v2 from "../image/video/v2.mp4";
 import v3 from "../image/video/v3.mp4";
 import v4 from "../image/video/v4.mp4";
 import v5 from "../image/video/v5.mp4";
+import l1 from '../image/l1.png'
 
 export const SkiilsData = [
   {
@@ -303,6 +304,15 @@ export const projectData = [
       "Blog-app skills used HTML, CSS Material-UI,React Js, Express Js Mongodb",
     github: "https://github.com/MdIntezarAlam/blog-mern",
     live: "https://github.com/MdIntezarAlam/blog-mern",
+  },
+  {
+    id: 3,
+    img: l1,
+    title: "Contact-Manager-app",
+    description:
+      "Contact-manager-app skills used  CSS Material-UI,React Js,CRUD",
+    github: "https://github.com/MdIntezarAlam/contact-manage-app-react-crud",
+    live: "https://contact-manager-crud-app.netlify.app/",
   },
 ];
 
