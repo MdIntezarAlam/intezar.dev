@@ -29,14 +29,14 @@ a {
 }
 
 .img_1,
-.img_2,
+/* .img_2, */
 .about_card_logo {
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .img_1,
-  .img_2,
+  /* .img_2, */
   .about_card_logo {
     animation: App-logo-spin infinite 15s linear;
   }
