@@ -3,14 +3,14 @@ import a1 from "../../image/a1.png";
 import a from "../../image/a.png";
 import n1 from "../../image/n1.jpg";
 import resume from "../Resume/resume.pdf";
-
+import p1 from '../../image/p1.png'
 const RightSideIntro = () => {
   return (
     <>
       <div class="right_img_container">
         <div className="top_img">
           <img src={a1} className="img_box img_1" alt="card_mg" />
-          <img src={n1} className="img_box img_2" alt="card_mg" />
+          <img src={p1} className="img_box img_2" alt="card_mg" />
         </div>
         <div className="third_img">
           <img src={a} className="img_box img_3" alt="card_mg" />
