@@ -1,7 +1,7 @@
 import { homeImageData } from "../../utils/Contant";
 import { Badge, Card } from "react-bootstrap";
 const text =
-  "Frontend developer using modern technology such as React. I follow the best folder structure so that code will be more re-usable,scalable and flexibile. I mainly focus on code quality and performance. Redux or redux toolkit, localstorage and cookies . Html,Css,Bootstrap, JavaScript, React Js, Git, GitHub,Node Js, Express Js & MongoDB";
+  "Working as Frontend React js/ Next Js in a Product based Company and having the zeal to up-skill, being efficient & productive for the company & develop as well as diversifying my professional skill-set. Looking forward to working as a software developer in a Multinational Corporation to get more exposure to international clients.Frontend developer using modern technology such as React. I follow the best folder structure so that code will be more re-usable,scalable and flexibile. I mainly focus on code quality and performance. Redux or redux toolkit, localstorage and cookies . Html,Css,Bootstrap, JavaScript, React Js, Git, GitHub,Node Js, Express Js & MongoDB";
 
 const LeftsideIntro = () => {
   return (

@@ -1,4 +1,3 @@
-import { Card } from "react-bootstrap";
 import a1 from "../../image/a1.png";
 import a from "../../image/a.png";
 import user from '../../image/user.jpg'
