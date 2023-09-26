@@ -6,7 +6,7 @@ const text =
 const LeftsideIntro = () => {
   return (
       <Card.Body>
-        <Card.Title className="fs-1 bold">Hii I Am</Card.Title>
+        <Card.Title className="fs-1 text-primary bold">Hii I Am</Card.Title>
         <Card.Title className="text_heading_1">Md Intezar Alam</Card.Title>
         <Card.Text className="text_style">{text}</Card.Text>
         <Badge bg="success" className="w-25 p-3 mb-4 mt-4">
