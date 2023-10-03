@@ -107,7 +107,13 @@ export const aboutData = [
     id: 1,
     img: a13,
     heading: "Frontend React Js Developer",
-    desc: "Frontend development using modern technology such as React. I follow the best folder structure so that code will be more re-usable, scalable and flexibile. I mainly focus on code quality and performance. Redux or redux toolkit, localstorage and cookies",
+    desc: "Frontend development using modern technology such as React Js because of its core feature, which is its ability to react or respond dynamically to changes in data.It uses component and data patterns that improve readability and helps to maintain larger apps.",
+  },
+  {
+    id: 1,
+    img: a13,
+    heading: "Netxt Js Typescript Developer",
+    desc: "Netxt Js Typescript which gives us building blocks to create web apps.handles the tooling and configuration needed for React, and provides additional structure. Next. js is more feature-rich and opinionated than React. It is especially well-suited for websites focused on SEO or pre-rendering.",
   },
   {
     id: 2,
