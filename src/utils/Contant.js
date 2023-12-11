@@ -15,7 +15,6 @@ import a13 from "../image/a13.jpg";
 
 import pp2 from "../image/pp2.jpg";
 import pp4 from "../image/pp4.jpg";
-import p3 from "../image/p3.jpg";
 import c3 from "../image/c3.png";
 import c2 from "../image/c2.png";
 import c1 from "../image/c1.png";
@@ -34,7 +33,6 @@ import s10 from "../image/s10.png";
 import s11 from "../image/s11.png";
 import m3 from "../image/m3.png";
 
-import v_1 from "../image/video/v_1.mp4";
 import v2 from "../image/video/v2.mp4";
 import v3 from "../image/video/v3.mp4";
 import v4 from "../image/video/v4.mp4";
