@@ -10,6 +10,7 @@ import i9 from "../image/i9.png";
 import h1 from "../image/h1.jpg";
 import h2 from "../image/h2.jpg";
 import h3 from "../image/h3.jpg";
+import ytb from "../image/ytb.jpg";
 
 import a13 from "../image/a13.jpg";
 
@@ -37,7 +38,7 @@ import v2 from "../image/video/v2.mp4";
 import v3 from "../image/video/v3.mp4";
 import v4 from "../image/video/v4.mp4";
 import v5 from "../image/video/v5.mp4";
-import l1 from '../image/l1.png'
+import l1 from "../image/l1.png";
 
 export const SkiilsData = [
   {
@@ -128,6 +129,15 @@ export const aboutData = [
 ];
 //project data
 export const projectData = [
+  {
+    id: 0,
+    img: ytb,
+    title: "YouTube",
+    description:
+      "YouTube clone only Desktop application, Next.Js, Typescript, Zustand, Tailwind css",
+    github: "https://github.com/MdIntezarAlam/nextjs-youtube-clone",
+    live: "https://intezar-dev-youtube.netlify.app/",
+  },
   {
     id: 1,
     img: c3,
