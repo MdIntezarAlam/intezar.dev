@@ -43,7 +43,7 @@ import l1 from "../image/l1.png";
 export const SkiilsData = [
   {
     skillsImg: i1,
-    skiilsTitle: "HTML/CSS",
+    skiilsTitle: "HTML/CSS/Tailwind CSS",
     skillsText:
       "HTML and Cascading Style Sheets are two of the core technologies for building Web pages.",
   },
@@ -55,25 +55,25 @@ export const SkiilsData = [
   },
   {
     skillsImg: i3,
-    skiilsTitle: "React Js",
+    skiilsTitle: "React Js/Next.Js/TypeScript",
     skillsText:
       "React is a JavaScript library for building user interfaces. React is used to build single-page applications.",
   },
   {
     skillsImg: i4,
-    skiilsTitle: "React Native Expo",
+    skiilsTitle: "React Native Expo/ React Native-CLI",
     skillsText:
-      "Expo is a framework to build React Native apps. It is a set with tools and services built for React Native. ",
+      "Expo & Expo Cli is a framework to build React Native apps. It is a set with tools and services built for React Native. ",
   },
   {
     skillsImg: i5,
-    skiilsTitle: "React Redux",
+    skiilsTitle: "React Redux/ Zustand",
     skillsText:
       "Redux provides a simple process to get and set the current state of the application.",
   },
   {
     skillsImg: i6,
-    skiilsTitle: "Material-UI/Bootstrap",
+    skiilsTitle: "Material-UI/Bootstrap/ Shadcn",
     skillsText:
       "Designed to enable responsive development of mobile-first websites.",
   },
