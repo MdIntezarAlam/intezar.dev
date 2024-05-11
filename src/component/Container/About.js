@@ -1,5 +1,4 @@
 import React from "react";
-import a13 from "../../image/a13.jpg";
 import { aboutData } from "../../utils/Contant";
 
 const About = () => {

@@ -360,3 +360,53 @@ a {
   width: 100%;
   height: 100%;
 }
+
+.change_content:after {
+  content: "";
+  background: inherit;
+  animation: changetext 10s infinite linear;
+}
+
+@keyframes changetext {
+  0% {
+    content: "Md Intezar Alam";
+    color: #11f8ca;
+  }
+
+  20% {
+    content: "Frontend developer";
+    color: #f80ac7;
+  }
+
+  40% {
+    content: "React Js developer";
+    color: #0a7bf8;
+  }
+
+  55% {
+    content: "Next Js developer";
+    color: #f8cf0a;
+    opacity: 1;
+  }
+
+  70% {
+    content: "React Native developer";
+    color: #0af87d;
+  }
+
+  85% {
+    content: "Typescript developer";
+    color: #f80a0a;
+    opacity: 1;
+  }
+
+  90% {
+    content: "Zustand/Redux developer";
+    color: #f80a0a;
+  }
+
+  100% {
+    content: "Tailwind CSS/Shadcn/CSS";
+    color: #f80a0a;
+  }
+}

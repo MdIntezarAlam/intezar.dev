@@ -16,6 +16,7 @@ const LeftsideIntro = () => {
           Hire Me
         </a>
       </Badge>
+      <h1 className="change_content" />
       <Card.Body className="left_social_media_container">
         {homeImageData?.map((data) => (
           <a href={data.img_link}>
