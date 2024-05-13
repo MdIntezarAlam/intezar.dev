@@ -30,7 +30,7 @@ a {
 @media (prefers-reduced-motion: no-preference) {
   .img_1,
   .about_card_logo {
-    animation: App-logo-spin infinite 15s linear;
+    animation: App-logo-spin infinite 5s linear;
   }
 }
 
@@ -50,7 +50,7 @@ a {
 
 @media (prefers-reduced-motion: no-preference) {
   .img_3 {
-    animation: App-spin infinite 15s linear;
+    animation: App-spin infinite 5s linear;
   }
 }
 
