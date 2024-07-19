@@ -154,7 +154,7 @@ export const projectData = [
     title: "Next-Snake-Game",
     description:
       "I have create a Next Snake game  using Tailwind CSS ,Next.Js and Typescript.",
-    github: "https://github.com/MdIntezarAlam/movie-app-with-local-storage",
+    github: "https://github.com/MdIntezarAlam/Next_js_Snake_Game.git",
     live: "https://next-snake-game.netlify.app/",
   },
   {
