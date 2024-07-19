@@ -20,6 +20,7 @@ import c3 from "../image/c3.png";
 import c2 from "../image/c2.png";
 import c1 from "../image/c1.png";
 import c4 from "../image/c4.png";
+import snake from "../image/snake.png";
 
 import s1 from "../image/s1.png";
 import s2 from "../image/s2.png";
@@ -146,6 +147,15 @@ export const projectData = [
       "YouTube clone only Desktop application, Next.Js, Typescript, Zustand, Tailwind css",
     github: "https://github.com/MdIntezarAlam/nextjs-youtube-clone",
     live: "https://intezar-dev-youtube.netlify.app/",
+  },
+  {
+    id: 1,
+    img: snake,
+    title: "Next-Snake-Game",
+    description:
+      "I have create a Next Snake game  using Tailwind CSS ,Next.Js and Typescript.",
+    github: "https://github.com/MdIntezarAlam/movie-app-with-local-storage",
+    live: "https://next-snake-game.netlify.app/",
   },
   {
     id: 1,
