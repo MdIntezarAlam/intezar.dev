@@ -21,6 +21,7 @@ import c2 from "../image/c2.png";
 import c1 from "../image/c1.png";
 import c4 from "../image/c4.png";
 import snake from "../image/snake.png";
+import calculator from "../image/calculator.png";
 
 import s1 from "../image/s1.png";
 import s2 from "../image/s2.png";
@@ -301,6 +302,15 @@ export const projectData = [
       "Calculator-app where i used technologies HTML, CSS Javascript",
     github: "https://github.com/MdIntezarAlam/calculator",
     live: "https://intcalculator.netlify.app/",
+  },
+  {
+    id: 3,
+    img: calculator,
+    title: "Next-Js Calculator",
+    description:
+      "Calculator-app where i used technologies Next js, Typescript & Tailwind css",
+    github: "https://github.com/MdIntezarAlam/next-calculator.git",
+    live: "https://next-calculators.netlify.app/",
   },
   {
     id: 3,
