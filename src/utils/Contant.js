@@ -63,7 +63,7 @@ export const SkiilsData = [
   },
   {
     skillsImg: i4,
-    skiilsTitle: "React Native Expo/ React Native-CLI",
+    skiilsTitle: "React Native Expo/Native-CLI",
     skillsText:
       "It is a framework to build Native apps. set  of tools and services built for React Native... ",
   },
@@ -71,7 +71,7 @@ export const SkiilsData = [
     skillsImg: i5,
     skiilsTitle: "React Redux/ Zustand",
     skillsText:
-      "Redux provides a simple process to get and set the current state of the application.(state)",
+      "Redux provides a simple process to get and set the current state of the application.basically (state management)",
   },
   {
     skillsImg: i6,
@@ -87,9 +87,9 @@ export const SkiilsData = [
   },
   {
     skillsImg: i8,
-    skiilsTitle: "Git, GitHub",
+    skiilsTitle: "Git, GitHub/Netlify/Vercel",
     skillsText:
-      "Git is a free and open source distributed version control system. and GitHub is a web-based",
+      "Git is a free and open source distributed version control system. and GitHub is a web-based version control system. ",
   },
 ];
 
