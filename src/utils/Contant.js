@@ -51,7 +51,7 @@ export const SkiilsData = [
   },
   {
     skillsImg: i2,
-    skiilsTitle: "JavaScript",
+    skiilsTitle: "JavaScript / TypeScript",
     skillsText:
       "JavaScript which allow us to create dynamically updating content, control multimedia,etc...",
   },
@@ -69,9 +69,9 @@ export const SkiilsData = [
   },
   {
     skillsImg: i5,
-    skiilsTitle: "React Redux/ Zustand",
+    skiilsTitle: "React Redux/ Redux toolkit/ Zustand",
     skillsText:
-      "Redux provides a simple process to get and set the current state of the application.basically (state management)",
+      "Redux provides a simple process to get and set the current state of the application.basically ",
   },
   {
     skillsImg: i6,
@@ -87,9 +87,9 @@ export const SkiilsData = [
   },
   {
     skillsImg: i8,
-    skiilsTitle: "Git, GitHub/Netlify/Vercel",
+    skiilsTitle: "Git, GitHub / Netlify / Vercel / OTHERS",
     skillsText:
-      "Git is a free and open source distributed version control system. and GitHub is a web-based version control system. ",
+      "Git is a free and open source distributed version control system. and GitHub is a web-based ",
   },
 ];
 
