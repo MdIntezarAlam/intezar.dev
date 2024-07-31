@@ -53,43 +53,43 @@ export const SkiilsData = [
     skillsImg: i2,
     skiilsTitle: "JavaScript",
     skillsText:
-      "JavaScript which allow us to create dynamically updating content, control multimedia, animate images etc..",
+      "JavaScript which allow us to create dynamically updating content, control multimedia,etc...",
   },
   {
     skillsImg: i3,
     skiilsTitle: "React Js/Next.Js/TypeScript",
     skillsText:
-      "React is a JavaScript library for building user interfaces. React is used to build single-page applications.",
+      "React is a JavaScript library for building user interfaces. to build single-page applications.",
   },
   {
     skillsImg: i4,
     skiilsTitle: "React Native Expo/ React Native-CLI",
     skillsText:
-      "Expo & Expo Cli is a framework to build React Native apps. It is a set with tools and services built for React Native. ",
+      "It is a framework to build Native apps. set  of tools and services built for React Native... ",
   },
   {
     skillsImg: i5,
     skiilsTitle: "React Redux/ Zustand",
     skillsText:
-      "Redux provides a simple process to get and set the current state of the application.",
+      "Redux provides a simple process to get and set the current state of the application.(state)",
   },
   {
     skillsImg: i6,
     skiilsTitle: "Material-UI/Bootstrap/ Shadcn",
     skillsText:
-      "Designed to enable responsive development of mobile-first websites.",
+      "Designed to enable responsive development of mobile-first websites. and mobile applications.",
   },
   {
     skillsImg: i7,
     skiilsTitle: "Node Js/Express JS/MongoDb",
     skillsText:
-      "Express is a framework that provides features for building web and mobile app.",
+      "Express is a framework that provides features for building web applications and mobile app.",
   },
   {
     skillsImg: i8,
     skiilsTitle: "Git, GitHub",
     skillsText:
-      "Git is a widely used version control system that  manage and keep track of our code.",
+      "Git is a free and open source distributed version control system. and GitHub is a web-based",
   },
 ];
 
