@@ -134,20 +134,11 @@ export const projectData = [
   {
     id: 0,
     img: ytb,
-    title: "YouTube-2nd",
-    description:
-      "YouTube application , React.Js, Typescript, Redux, Bootstrap, Firebase with api",
-    github: "https://github.com/MdIntezarAlam/youtube-clone.git",
-    live: "https://intezar-youtube-2nd.netlify.app/",
-  },
-  {
-    id: 0,
-    img: ytb,
     title: "YouTube",
     description:
-      "YouTube clone only Desktop application, Next.Js, Typescript, Zustand, Tailwind css",
-    github: "https://github.com/MdIntezarAlam/nextjs-youtube-clone",
-    live: "https://intezar-dev-youtube.netlify.app/",
+      "YouTube Website as well as Application, Next.Js, Typescript, Zustand, Tailwind css",
+    github: "https://github.com/MdIntezarAlam/nextjs-youTube-clone-app-route",
+    live: "https://next-youtube-app.netlify.app/",
   },
   {
     id: 1,
