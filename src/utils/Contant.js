@@ -12,7 +12,8 @@ import h2 from "../image/h2.jpg";
 import h3 from "../image/h3.jpg";
 import ytb from "../image/ytb.jpg";
 
-import a13 from "../image/a13.jpg";
+// import a13 from "../image/a13.jpg";
+import a13 from "../image/my-logo/a122.jpg";
 
 import pp2 from "../image/pp2.jpg";
 import pp4 from "../image/pp4.jpg";

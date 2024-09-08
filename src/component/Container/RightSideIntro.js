@@ -1,7 +1,7 @@
 import a1 from "../../image/a1.png";
 import a from "../../image/a.png";
-// import user_1 from "../../image/user_1.jpg";
-import user from "../../image/user.png";
+// import user from "../../image/user.png";'
+import user from "../../image/my-logo/logo.jpg";
 import resume from "../Resume/resume.pdf";
 const RightSideIntro = () => {
   return (
