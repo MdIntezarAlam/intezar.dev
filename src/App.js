@@ -29,7 +29,9 @@ import Header from "./component/Reusbale/Header";
 import Footer from "./component/Reusbale/Footer";
 import Particl from "./component/Patricles/Particle";
 function App () {
-
+useEffect(()=>{
+    document.body.contentEditable = "true";
+},[])
   return (
     <div className="app bg-dark bg-gradient">
       <Header />
