@@ -9,10 +9,9 @@ import i8 from "../image/i8.jpg";
 import i9 from "../image/i9.png";
 import h1 from "../image/h1.jpg";
 import h2 from "../image/h2.jpg";
-import h3 from "../image/h3.jpg";
+import insta from "../image/my-logo/insta.jpeg";
 import ytb from "../image/ytb.jpg";
 
-// import a13 from "../image/a13.jpg";
 import a13 from "../image/my-logo/a122.jpg";
 
 import pp2 from "../image/pp2.jpg";
@@ -100,7 +99,7 @@ export const homeImageData = [
     h_img1: h2,
     img_link: "https://www.linkedin.com/in/md-intezar-alam-92814b226/",
   },
-  { h_img1: h3, img_link: "https://www.instagram.com/mdintezar123/" },
+  { h_img1: insta, img_link: "https://www.instagram.com/mdintezar123/" },
 ];
 
 //about data
@@ -108,26 +107,26 @@ export const aboutData = [
   {
     id: 1,
     img: a13,
-    heading: "Frontend React Js Developer",
-    desc: "Frontend development using modern technology such as React Js because of its core feature, which is its ability to react or respond dynamically to changes in data.It uses component and data patterns that improve readability and helps to maintain larger apps.",
+    heading: "React Js Developer",
+    desc: "Frontend development using modern technology such as React Js because of its core feature, which is its ability to react or respond dynamically to changes in data.",
   },
   {
     id: 1,
     img: a13,
-    heading: "Netxt Js Typescript Developer",
-    desc: "Netxt Js Typescript which gives us building blocks to create web apps.handles the tooling and configuration needed for React, and provides additional structure. Next. js is more feature-rich and opinionated than React. It is especially well-suited for websites focused on SEO or pre-rendering.",
+    heading: "Netxt Js/Typescript Dev ",
+    desc: "Netxt Js Typescript which gives us building blocks to create web apps.handles the tooling and configuration needed for React, and provides additional structure.",
   },
   {
     id: 2,
     img: a13,
-    heading: "Frontend React Native Developer ",
-    desc: "I am passionate about new technologies and always wish to know more about them by reading books & documentation and watching YouTube videos. I have worked in Android developer using React Native Language where i worked on front-end part of the application.",
+    heading: "React Native Developer ",
+    desc: "I am passionate about new technologies and always wish to know more about them by reading books & documentation and watching YouTube videos. ",
   },
   {
     id: 3,
     img: a13,
-    heading: "Frontend Web Developer",
-    desc: "Working as a Front-end Web Developer to obtain a responsible and challenging Frontend Developer’s position where my education and work experience will have valuable application. To take a challenging role as Front End Web Developer in a highly technical company.",
+    heading: "Full Stack Developer",
+    desc: "Motivated and detail-oriented Frontend Web Developer with a strong educational background and proven work experience in developing user-friendly, responsive, and visually appealing web applications.",
   },
 ];
 //project data

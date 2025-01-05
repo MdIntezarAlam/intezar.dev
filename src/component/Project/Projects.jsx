@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import { projectData } from "../../utils/Contant";
 import VideoProject from "./VideoProject";
 
@@ -6,9 +7,9 @@ const Projects = () => {
     <div className="container-fluid" id="skills">
       <div className="row">
         <VideoProject />
-        {projectData.map((data) => (
+        {projectData.map( ( data ) => (
           <div className="col-sm-6 col-md-6 col-lg-3 mt-5">
-            <div class="card text-left bg-dark">
+            <div class="card text-left bg-dark" style={{ height: "100%" }}>
               <img
                 class="card-img-top"
                 src={data.img}
@@ -21,16 +22,16 @@ const Projects = () => {
                 <p class="card-text  text-white">{data.description}</p>
               </div>
               <div className="d-flex align-items-center justify-content-around mb-2">
-                <a href={data.github}>
+                <a href={data.github} target="_blank">
                   <button className="inner_btn">View on Github</button>
                 </a>
-                <a href={data.live}>
+                <a href={data.live} target="_blank">
                   <button className="inner_btn">Live</button>
                 </a>
               </div>
             </div>
           </div>
-        ))}
+        ) )}
       </div>
       <div className="row">
         <VideoProject />

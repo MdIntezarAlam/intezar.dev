@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable jsx-a11y/heading-has-content */
 import { homeImageData } from "../../utils/Contant";
 import { Badge, Card } from "react-bootstrap";
 import resume from "../../component/Resume/resume.pdf";
@@ -11,14 +13,14 @@ const LeftsideIntro = () => {
       <Card.Title className="fs-1 text-primary bold">Hii I Am</Card.Title>
       <Card.Title className="text_heading_1">Md Intezar Alam</Card.Title>
       <Card.Text className="text_style">{text}</Card.Text>
-      <Badge bg="success" className="w-25 p-3 mb-4 mt-4">
-        <a href={resume} style={{ textDecoration: "none", color: "inherit" }}>
+      <Badge bg="success" className="w-25 p-3 mb-4 mt-4 " style={{ cursor: "pointer" }}>
+        <a href={resume} target="_blank" style={{ textDecoration: "none", color: "inherit", }}>
           Hire Me
         </a>
       </Badge>
       <h1 className="change_content" />
       <Card.Body className="left_social_media_container">
-        {homeImageData?.map((data) => (
+        {homeImageData?.map( ( data ) => (
           <a href={data.img_link}>
             <img
               src={data.h_img1}
@@ -29,7 +31,7 @@ const LeftsideIntro = () => {
               className="rounded-2 "
             />
           </a>
-        ))}
+        ) )}
       </Card.Body>
     </Card.Body>
   );

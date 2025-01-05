@@ -15,8 +15,8 @@ const Contact = () => {
           />
         </div>
         <div className="col-sm-12 col-md-6 col-lg-6 mt-3">
-          <h1>Hi There,</h1>
-          <h3>Glad to contact me</h3>
+          <h1 style={{ color: "#fff" }}>Hi There,</h1>
+          <h3 style={{ color: "#fff" }}>Glad to contact me</h3>
           <div className="mt-3 d-flex align-items-center justify-content-start">
             <img src={c1} alt="email" width={20} height={20} />
             <span className="ms-4 fs-5 fw-medium">mdintezara35@gmail.com</span>

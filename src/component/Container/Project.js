@@ -6,58 +6,39 @@ import p4 from "../../image/p4.jpg";
 import pp1 from "../../image/pp1.jpg";
 import pp2 from "../../image/pp2.jpg";
 import pp3 from "../../image/pp3.jpg";
-import pp4 from "../../image/pp4.jpg";
-// import i1 from "../../image/i1.jpg";
-// import p11 from "../../image/p11.jpeg";
-// import p12 from "../../image/p12.jpeg";
-// import p13 from "../../image/p13.jpeg";
-// import p14 from "../../image/p14.jpeg";
-// import p15 from "../../image/p15.jpeg";
-// import p16 from "../../image/p16.jpeg";
-function Project() {
+function Project () {
+
+  const projectData = [
+    { o_1: pp2 },
+    { o_1: pp3 },
+    { o_1: pp1 },
+    { o_1: p1 },
+    { o_1: p3 },
+    { o_1: p2 },
+    { o_1: p4 },
+    { o_1: p2 },
+
+  ]
   return (
-    <Carousel
-      variant="white"
-      className="pb-5"
-      property="100"
-      controls={true}
-      fade={true}
-      indicators={true}
-      interval={1000}
-      slide={true}
-      touch={true}
-    >
-      <Carousel.Item>
-        <img className="carasol_img" src={pp2} alt="First slide" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="carasol_img" src={pp3} alt="Second slide" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="carasol_img" src={pp4} alt="Third slide" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="carasol_img" src={pp1} alt="f slide" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="carasol_img" src={p3} alt="fv slide" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="carasol_img" src={p2} alt="sx slide" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="carasol_img" src={p1} alt="sv slide" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="carasol_img" src={p2} alt="ei slide" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="carasol_img" src={p3} alt="ni slide" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="carasol_img" src={p4} alt="ten slide" />
-      </Carousel.Item>
-    </Carousel>
+    <div className="w-50">
+      <Carousel
+        variant="white"
+        className="pb-5"
+        property="100"
+        controls={true}
+        fade={true}
+        indicators={true}
+        interval={300}
+        slide={true}
+        touch={true}
+      >
+        {projectData.map( ( data ) => (
+          <Carousel.Item>
+            <img className="carasol_img" src={data.o_1} alt="First slide" />
+          </Carousel.Item>
+        ) )}
+      </Carousel>
+    </div>
   );
 }
 
