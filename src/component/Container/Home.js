@@ -11,7 +11,9 @@ const Home = () => {
         <Skills />
         <h5 className="text_heading_3  py-5">My Best Projects</h5>
         <Projects />
-        <Project />
+        <div className="pt-4">
+          <Project />
+        </div>
         <div className="mt-5">
           <About />
           <Contact />
