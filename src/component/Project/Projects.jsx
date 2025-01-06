@@ -22,11 +22,11 @@ const Projects = () => {
                 <p class="card-text  text-white">{data.description}</p>
               </div>
               <div className="d-flex align-items-center justify-content-around mb-2">
-                <a href={data.github} target="_blank">
-                  <button className="inner_btn">View on Github</button>
+                <a href={data.github} target="_blank" className="inner_btn">
+                  View on Github
                 </a>
-                <a href={data.live} target="_blank">
-                  <button className="inner_btn">Live</button>
+                <a href={data.live} target="_blank" className="inner_btn">
+                  Live
                 </a>
               </div>
             </div>
