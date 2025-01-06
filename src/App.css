@@ -245,9 +245,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
 }
 
 .inner_btn {
+  width: 100% !important;
   border-radius: 15px !important;
   background-color: tomato !important;
   color: #fff !important;

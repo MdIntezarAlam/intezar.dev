@@ -21,7 +21,7 @@ const Projects = () => {
                 <h4 class="card-title text-white">{data.title}</h4>
                 <p class="card-text  text-white">{data.description}</p>
               </div>
-              <div className="d-flex align-items-center justify-content-around mb-2">
+              <div className="d-flex align-items-center justify-content-around mb-2 btn_container">
                 <a href={data.github} target="_blank" className="inner_btn">
                   View on Github
                 </a>
