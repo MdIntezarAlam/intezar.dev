@@ -92,16 +92,6 @@ export const SkiilsData = [
       "Git is a free and open source distributed version control system. and GitHub is a web-based ",
   },
 ];
-
-export const homeImageData = [
-  { h_img1: h1, img_link: "https://github.com/MdIntezarAlam" },
-  {
-    h_img1: h2,
-    img_link: "https://www.linkedin.com/in/md-intezar-alam-92814b226/",
-  },
-  { h_img1: insta, img_link: "https://www.instagram.com/mdintezar123/" },
-];
-
 //about data
 export const aboutData = [
   {

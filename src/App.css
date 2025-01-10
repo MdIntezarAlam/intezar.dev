@@ -111,7 +111,7 @@ a {
 }
 
 .text_heading_3 {
-  color: hsl(0, 0%, 0%) !important;
+  color: hsl(0, 0%, 100%) !important;
   font-weight: bold !important;
   font-size: 3rem !important;
   font-family: Arial, Helvetica, sans-serif;
@@ -455,4 +455,31 @@ a {
 
 .home {
   margin-top: 80px !important;
+}
+
+
+.social {
+  border-radius: 50% !important;
+  padding: 4px !important;
+  text-decoration: none !important;
+}
+
+.linkedin {
+  color: rgb(68, 223, 171) !important;
+}
+
+.red {
+  color: rgb(238, 95, 95) !important;
+}
+
+.facebook {
+  color: rgb(243, 243, 243) !important;
+}
+
+.green {
+  color: rgb(85, 245, 85) !important;
+}
+
+.github {
+  color: rgb(243, 243, 243) !important;
 }
